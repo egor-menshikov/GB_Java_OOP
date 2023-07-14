@@ -1,8 +1,17 @@
-package Lectures.Lect_1;
+package Lectures.Lect_1.Point;
 
+/**
+ * Это точка 2д
+ */
 public class Point2D {
     private int x, y;
 
+    /**
+     * это коструктор
+     *
+     * @param x координата х
+     * @param y координату у
+     */
     public Point2D(int x, int y) {
         this.x = x;
         this.y = y;
@@ -38,5 +47,9 @@ public class Point2D {
                 "x=" + x +
                 ", y=" + y +
                 '}';
+    }
+
+    public static double distance(Point2D a, Point2D b) {
+        return Math.sqrt(Math.pow(a.x - b.x, 2) + Math.pow(a.y - b.y, 2));
     }
 }
