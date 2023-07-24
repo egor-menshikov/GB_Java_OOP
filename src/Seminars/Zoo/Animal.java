@@ -1,4 +1,4 @@
-package Sem_2.Zoo;
+package Seminars.Zoo;
 
 public abstract class Animal implements Speakable{
     private String name;

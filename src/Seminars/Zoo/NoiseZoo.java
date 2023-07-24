@@ -1,4 +1,4 @@
-package Sem_2.Zoo;
+package Seminars.Zoo;
 
 import java.util.List;
 

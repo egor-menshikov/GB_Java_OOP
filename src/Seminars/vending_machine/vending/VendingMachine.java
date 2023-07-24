@@ -1,6 +1,6 @@
-package ru.gb.vending_machine.vending;
+package Seminars.vending_machine.vending;
 
-import ru.gb.vending_machine.product.Product;
+import Seminars.vending_machine.product.Product;
 
 import java.util.ArrayList;
 import java.util.List;

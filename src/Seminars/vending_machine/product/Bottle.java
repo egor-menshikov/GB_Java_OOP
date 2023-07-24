@@ -1,4 +1,4 @@
-package ru.gb.vending_machine.product;
+package Seminars.vending_machine.product;
 
 public class Bottle extends Product {
     private double volume;

@@ -1,8 +1,8 @@
-package ru.gb.vending_machine;
+package Seminars.vending_machine;
 
-import ru.gb.vending_machine.product.Bottle;
-import ru.gb.vending_machine.product.Product;
-import ru.gb.vending_machine.vending.VendingMachine;
+import Seminars.vending_machine.product.Bottle;
+import Seminars.vending_machine.product.Product;
+import Seminars.vending_machine.vending.VendingMachine;
 
 public class Main {
     public static void main(String[] args) {
